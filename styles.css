@@ -1,0 +1,123 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+  }
+  
+  a {
+    text-decoration: none;
+    }
+  
+  html {
+    /* variaveis */
+    --bg-color: rgb(173, 113, 228);
+    --text-color: black;
+    --primary-color: #758dee;
+    --primary-color-dark:rgb(223, 123, 123);
+  }
+  
+  body.dark{
+  --bg-color: black;
+  --text-color: white;
+  --primary-color: gray;
+  --primary-color-dark: rgb(45, 44, 44);
+  }
+  
+  body.pink{
+    --bg-color:rgb(235, 204, 209);
+    --text-color:black;
+    --primary-color:rgb(228, 92, 115);
+    --primary-color-dark:rgb(159, 59, 76);
+  }
+  
+  body.dark-pink{
+    --bg-color: black;
+    --text-color: white;
+    --primary-color: pink;
+    --primary-color-dark: rgb(193, 121, 133);
+  
+  }
+  
+  body.dark-blue{
+    --bg-color: rgb(7, 7, 79);
+    --text-color: white;
+    --primary-color: #3851b1;
+    --primary-color-dark:#2e428f;
+  }
+  
+  
+  body {
+    color: var(--text-color);
+    background: var(--bg-color) ;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .conteiner {
+  
+    text-align: center;
+    width: 250px;
+    margin: 0px auto 
+  }
+  
+  img {
+    border-radius: 50%;
+    border: 4px solid var(--primary-color);
+    padding: 4px;
+    width: 120px; 
+    height: 120px;
+  
+  }
+  h1 {
+    font-size: 30px;
+    font-weight: 700;
+  }
+  
+  p {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+  }
+  
+  ul {
+    list-style: none;
+    font-size: 15px;
+    opacity: 1;
+  }
+  
+  p {
+    margin-top: 5px;
+  }
+   
+   ul {
+     margin: 30px;
+   }
+  
+   ul li a {
+     height: 45px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background: var(--primary-color);
+     margin-bottom: 14px;
+     border-radius: 7px;
+     transition: background 150ms;
+  
+   }
+  ul li a:hover {
+    background:var(--primary-color-dark) ;
+  }
+   footer {
+     font-weight: 500;
+     font-size: 10px;
+     opacity: 0.6;
+     color: var(--text-color);
+   }
+  footer:hover {
+  opacity: 1;
+  }
+   footer a {
+     color: var(--text-color);
+     font-size: 12px;
+     text-decoration: underline;
+   }
+  
+  
